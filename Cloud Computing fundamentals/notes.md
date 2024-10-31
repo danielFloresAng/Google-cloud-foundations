@@ -16,7 +16,29 @@ Cloud computing is a way of using IT that has these five equally important trait
 
 - IaaS: Infrastructure as a service
 - PaaS: Platform as a service
-- ISaaS: Software as a service
+- ISaaS: Software as a service 
+
+
+// Google cloud Infrastructure are based on three layers
+
+1- Networking and security
+2- Compute and storage
+3- Big data and ML products
+
+* Google cloud computing Services:
+  - Compute engine
+  - Google kubernets engine
+  - App engine
+  - Cloud functions
+  - Cloud run
+
+* Google cloud storage services: 
+  - Cloud storage
+  - Cloud SQL
+  - Cloud spanner
+  - Cloud Bigtable
+  - Firestore
+
 
 
 
