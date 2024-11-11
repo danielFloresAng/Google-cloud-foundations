@@ -1,0 +1,14 @@
+Google cloud skills boost:
+    https://www.cloudskillsboost.google/
+
+
+
+
+
+
+/// YOU TUBE ///
+Manage Containerized Apps with Kubernetes Engine    
+    https://www.youtube.com/watch?v=u9nsngvmMK4
+
+Manage PostgreSQL and MySQL Databases Easily with Cloud SQL
+    https://www.youtube.com/watch?v=EQJK0tNW-g4
