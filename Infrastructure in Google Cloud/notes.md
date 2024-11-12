@@ -51,3 +51,29 @@ A bucket needs a globally unique name and a specific geographic location for whe
   <Firestore is a flexible, horizontally scalable, NoSQL cloud database for mobile, web, and server development. With Firestore, incoming data is stored in a document structure, and these documents are then organized into collections.  Documents can contain complex nested objects in addition to subcollections.>
 
   <Bigtable is Google is NoSQL big data database service. It is the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.Bigtable is designed to handle massive workloads at consistent low latency and high throughput, so it is a great choice for both operational and analytical applications, including Internet of Things, user analytics, and financial data analysis.>
+
+/// API (Application programing interface)
+<!-- 
+  A software is structured so that it presents a clean, well-defined interface that hides unnecessary detail, and then they document that interface.
+  That's an API.
+ -->
+
+> REST (REpresentational State Transfer): is currently the most popular architectural style for services.
+
+/// Cloud endpoints.
+
+Cloud Endpoints is a distributed API management system that uses a distributed Extensible Service Proxy, which is a service proxy that runs in its own Docker container.
+
+/// Apigee API
+  Unlike Cloud Endpoints, Apigee API Management has a specific focus on business problems, like rate limiting, quotas, and analytics.
+  In fact, many Apigee API Management users provide a software service to other companies.
+
+
+<Pub/Sub, a Google Cloud asynchronous messaging service and API that supports distributed message-oriented architectures at scale. One of the early stages in a data pipeline is data ingestion, which is where large amounts of streaming data are received. PubSub is a distributed messaging service that can receive messages from various device streams such as gaming events, IoT devices, and application streams. PubSub ensures at-least-once delivery of received messages to subscribing applications, with no provisioning required. PubSub’s APIs are open, the service is global by default, and it offers end-to-end encryption.>
+
+  <!-- 
+  A central element of Pub/Sub is the topic.
+  
+  A topic is a named resource to which messages are sent by publishers. You can think of a topic like a radio antenna. Whether your radio is playing music or it’s turned off, the antenna itself is always there. If music is being broadcast on a frequency that nobody’s listening to, the stream of music still exists.
+  Similarly, a publisher can send data to a topic that has no subscriber to receive it.
+  -->

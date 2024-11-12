@@ -12,3 +12,6 @@ Manage Containerized Apps with Kubernetes Engine
 
 Manage PostgreSQL and MySQL Databases Easily with Cloud SQL
     https://www.youtube.com/watch?v=EQJK0tNW-g4
+
+Simplify Event Driven Processing with Cloud Pub/Sub 
+    https://www.youtube.com/watch?v=oKU2wbTXMTY
