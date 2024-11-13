@@ -1,8 +1,14 @@
 Google cloud skills boost:
     https://www.cloudskillsboost.google/
 
+google coud console: 
+  * console.cloud.google.com
 
+google clou pricing table: 
+  * cloud.google.com/products/calculator.
 
+SDK installer: 
+  cloud.google.com/sdk
 
 
 
