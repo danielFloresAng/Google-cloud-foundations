@@ -80,3 +80,37 @@ In fact, many Apigee API Management users provide a software service to other co
     -->
 
 <!-- YOU CAN'T SECURE THE CLOUD, RIGHT? -->
+
+Google provides fiver layers of protection to keep customers' data safe:
+
+- Hardware infrastructure
+- Service deployment
+- Storage services
+- Internet communication
+- Operational security
+
+Google cloud offers 3 options to encrypt data:
+
+- Google Cloud default encryption
+
+- Customer-managed encryption keys (CMEK)
+  <Cloud Key Management Service, or Cloud KMS, automates and simplifies the generation and management of encryption keys. The keys are managed by the customer and never leave the cloud. Cloud KMS supports encryption, decryption, signing, and verification of data.>
+
+- Customer-supplied encryption keys (CSEK).
+  <Customer-supplied encryption keys give users more control over their keys, but with greater management complexity. With CSEK, users use their own AES 256-bit encryption keys. They are responsible for generating these keys. Users are responsible for storing the keys and providing them as part of Google Cloud API calls. Google Cloud will use the provided key to encrypt the data before saving it. Google guarantees that the key only exists in-memory and is discarded after use.>
+
+- IAM (Identity and Access Management):
+  <With IAM, administrators can apply policies that define who can do what on which resources. The “who” part of an IAM policy can be a Google Account, a Google group, a service account, or Cloud Identity domain. The “can do what” part of an IAM policy is defined by a role. An IAM role is a collection of permissions.>
+
+  There are three kinds of roles in IAM:
+
+  - Basic:
+    Project viewers can examine resources, but can’t modify them. Project editors can examine and modify a resource. And project owners can also examine and modify a resource. In addition, project owners can manage the associate roles and permissions, and set up billing.
+
+  - Predefined:
+    Provides other ways to assign permissions that are more specifically tailored to meet the needs of typical job roles.
+
+  - Custom.
+    It allow to create custom roles that have specifict permissions
+
+    <Identity-Aware Proxy, or IAP, is a resource that can be used to set up authentication to https-based applications without the use of VPNs.>
