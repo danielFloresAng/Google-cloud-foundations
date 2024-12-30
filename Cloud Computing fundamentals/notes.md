@@ -1,12 +1,12 @@
 <!-- what's the cloud? -->
 
-Cloud computing is a way of using IT that has these five equally important traits"
-1.- Customers get computing resources that are on-demand and self-service
-2.- Get access to those resources over the internet, from anywhere
-3.- The provider of those resources allocates them to users out of that pool
-4.- The resources are elastic-which means they can increase or decrease as needed
-5.- Customers pay only for what they use, or reserve as they go
-
+- Cloud computing is a way of using IT that has these five equally important traits:
+  1.- Customers get computing resources that are on-demand and self-service
+  2.- Get access to those resources over the internet, from anywhere
+  3.- The provider of those resources allocates them to users out of that pool
+  4.- The resources are elastic-which means they can increase or decrease as needed
+  5.- Customers pay only for what they use, or reserve as they go
+ 
 Components:
 
 - Users
@@ -19,14 +19,13 @@ Components:
 - PaaS: Platform as a service
 - ISaaS: Software as a service
 
-// Google cloud Infrastructure are based on three layers
+// Google cloud Infrastructure are based on three layers:
+  1- Networking and security
+  2- Compute and storage
+  3- Big data and ML products
 
-1- Networking and security
-2- Compute and storage
-3- Big data and ML products
 
-- Google cloud computing Services:
-
+> Google cloud computing Services:
   - Compute engine
   - Google kubernets engine
   - App engine
@@ -55,10 +54,17 @@ To access the console, navigate to <console.cloud.google.com.>
 The console is used to access and use resources, and those resources are organized in projects.
 The Google Cloud resource hierarchy is made up of four levels:
 
-- resources
-- projects
-- folders
-- organization node
+- Resources
+  > These represent virtual machines, Cloud Storage buckets, tables in BigQuery, or anything else in Google Cloud. Resources are organized into projects, which sit on the second level.
+
+- Projects
+  > Projects can be organized into folders, or even subfolders.
+
+- Folders
+  > You can use folders to group projects under an organization in a hierarchy.
+
+- Organization node
+  > encompasses all the projects, folders, and resources in your organization.
 
   //Projects attributes vary in uniqueness and immutability
 
@@ -68,10 +74,11 @@ The Google Cloud resource hierarchy is made up of four levels:
   - project name (mutable)
   - Project number (immutable)
 
-// Google coud billing
 
-Wwhen you define a Google Cloud project, you link a billing account to it.
-This billing account is where you will configure all your billing information, including your payment option.
+
+// Google coud billing
+  Wwhen you define a Google Cloud project, you link a billing account to it.
+  This billing account is where you will configure all your billing information, including your payment option.
 
 There are two types of quotas:
 
