@@ -99,13 +99,19 @@ The SDK tools includes:
 <App Engine lets you build highly scalable applications on a fully managed, serverless platform.>
 With App Engine, you can choose from popular coding languages, libraries, and frameworks to develop apps
 
-// Cloud functions
+// Compute engine (IaaS)
+Virtual machines with industry-leading price/performance
+
+// App engine
+A flexible, zero ops platform for building highly available apps
+
+// Cloud functions (Serverless logic)
 Is serverless code that let you run it based on certain events
 
-//Google kubernetes engine (GKE)
+//Google kubernetes engine - GKE 
 provides a managed environment for deploying, managing, and scaling your containerized applications using Google infrastructure. The GKE environment consists of multiple machines (specifically Compute Engine instances) grouped to form a container cluster.
 
-//Gloud Run
+//Gloud Run (serverless platform)
 Manage compute platform that less run stateless containers by using web request or Pub sub events. Is serverless
 
 Google cloud run workflow is a three-steps process:
@@ -113,3 +119,11 @@ Google cloud run workflow is a three-steps process:
 - Write the application code
 - Build and packege the application into a container image
 - Deploy the container image to cloud run
+
+\\ Google cloud API's
+  > The Google Cloud console includes a tool called the Google APIs Explorer that shows what APIs are available, and in what versions.
+
+
+________________________________________________________________________________________________________
+
+* COMPUTE ENGINE -> With compute engine, users can create and run virtual machines in Google's innovative data centers and on its global fiber network.
